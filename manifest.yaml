@@ -1,0 +1,4 @@
+applications:
+- name: long-way-home
+  memory: 128M
+  command: python app.py
