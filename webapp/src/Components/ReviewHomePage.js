@@ -40,7 +40,7 @@ export default class ReviewHomePage extends Component{
             return <Tile key={i}>
                 <EncodingDisplay encoding={e}/>
                 <Button onClick={() => {this.setState({openEncoding: i})}}>Find Matches</Button>
-                {i == this.state.openEncoding && (
+                {i === this.state.openEncoding && (
                     <ReviewSearchPage result={e} encodings={this.state.missingEncodings}/>
                 )}
             </Tile>

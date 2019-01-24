@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
 
 export default class EncodingDisplay extends Component{
-    constructor(props) {
-      super(props);
-    }
-
 
     render(){
         let encoding = this.props.encoding;

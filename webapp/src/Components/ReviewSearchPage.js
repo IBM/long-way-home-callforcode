@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.scss';
-import {Tile, Button} from 'carbon-components-react';
+import {Tile} from 'carbon-components-react';
 import {euclideanDistance} from 'face-api.js';
 import EncodingDisplay from './EncodingDisplay';
 

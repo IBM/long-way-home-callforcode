@@ -5,7 +5,6 @@ import * as util from '../util';
 import FoundImgUploadBox from './FoundImgUploadBox';
 import FoundInfo from './FoundInfo';
 import ReviewPage from './ReviewPage';
-import FoundSearchPage from './ReviewSearchPage';
 import LoginModal from './LoginModal';
 
 const FoundProgress = (props) => {return (

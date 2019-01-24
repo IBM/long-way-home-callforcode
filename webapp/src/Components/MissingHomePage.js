@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.scss';
 import {ProgressIndicator, ProgressStep, Accordion, AccordionItem, Button, Loading} from 'carbon-components-react';
-import {loadMtcnnModel, loadFaceRecognitionModel} from 'face-api.js';
 
 import MissingImgUploadBox from './MissingImgUploadBox';
 import MissingContactInfo from './MissingContactInfo';
